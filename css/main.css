@@ -55,6 +55,10 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+  color: #f3eee9;
+  background-color: #2a333c;
+}
 
 .container {
   height: 100vh;
@@ -76,9 +80,8 @@ textarea {
 }
 
 .container-information {
-    padding: 2em;
-    color: #f3eee9;
-    text-align: center;
+  padding: 2em;
+  text-align: center;
 }
 
 .information-text {
