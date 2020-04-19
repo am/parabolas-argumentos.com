@@ -14,6 +14,10 @@ class CustomDocument extends Document {
     return (
       <Html>
         <Head>
+          <link
+            href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700&display=swap"
+            rel="stylesheet"
+          />
           <link rel="stylesheet" href="static/css/normalize.min.css" />
         </Head>
         <body>

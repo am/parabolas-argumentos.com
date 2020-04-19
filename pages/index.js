@@ -17,40 +17,34 @@ const Index = () => (
           <ul className="menu-list">
             <li className="menu-item">
               <a
-                className="link-button link-button--active color-white"
-                href="/"
+                className="link-button link-button--active"
+                href="mailto:angela@parabolas-argumentos.com?subject=Our project"
+                target="_blank"
               >
-                services
-              </a>
-            </li>
-            <li className="menu-item">
-              <a className="link-button color-white" href="/contact">
-                contact
+                conctact us
               </a>
             </li>
           </ul>
         </nav>
       </div>
       <div className="header-image-container">
-        <img
-          className="header-image"
-          alt=""
-          src="https://picsum.photos/seed/header/1280/460?blur=8"
-        />
-        <h1 className="header-text color-white">
-          We are fond of thoughtful garments
+        <img className="header-image" alt="" src="/static/img/IMG_3164.jpg" />
+        <h1 className="header-text">
+          <b>We are fond</b>
+          <br />
+          of thoughtful garments
         </h1>
       </div>
     </header>
 
     <main>
-      <section className="content about-section">
-        <p>
+      <section className="content">
+        <p className="big-text">
           We are a textile production company located in Esposende. Behind the
           label Made In Portugal, we provide a responsible service, ensuring
           that our work meets excellence in thinking and doing.
         </p>
-        <p>
+        <p className="normal-text">
           We can work together in different stages. Designing your brand visual
           content, improving the process with our consulting sessions, sourcing
           the best fabrics or keeping the highest standards of your collection
@@ -59,7 +53,7 @@ const Index = () => (
         <ul className="services-list">
           <li className="services-item">
             <ServiceListing
-              image="https://picsum.photos/seed/1/400/600"
+              image="/static/img/comp_2_B.jpg"
               title="Branding & Design"
               services={[
                 "Identity Design",
@@ -72,7 +66,7 @@ const Index = () => (
           </li>
           <li className="services-item">
             <ServiceListing
-              image="https://picsum.photos/seed/2/400/600"
+              image="/static/img/fabric_crop.jpg"
               title="Textile Consulting"
               services={[
                 "Market analysis",
@@ -83,8 +77,8 @@ const Index = () => (
           </li>
           <li className="services-item">
             <ServiceListing
-              image="https://picsum.photos/seed/3/400/600"
-              title="Production Management"
+              image="/static/img/hangtag_crop.jpg"
+              title="Production"
               services={[
                 "Sourcing",
                 "Tech Specs Sheets",
@@ -97,38 +91,52 @@ const Index = () => (
           </li>
         </ul>
       </section>
-      <div className="header-image-container">
-        <img
-          className="header-image"
-          alt=""
-          src="https://picsum.photos/seed/header/1280/260?blur=8"
-        />
-      </div>
       <section className="content">
         <div className="gallery">
           <img
-            className="gallery-left"
+            className="gallery-image gallery-image--right"
             alt=""
-            src="https://picsum.photos/seed/gallery1/300/400"
+            src="/static/img/michael-frattaroli-QGByusZU0ow-unsplash.jpg"
           />
           <img
-            className="gallery-right"
+            className="gallery-image gallery-image--left"
             alt=""
-            src="https://picsum.photos/seed/gallery2/300/400"
-          />
-          <img
-            className="gallery-full"
-            alt=""
-            src="https://picsum.photos/seed/gallery3/600/300"
+            src="/static/img/priscilla-du-preez-638157-unsplash.jpg"
           />
         </div>
       </section>
       <section className="content">
-        <a href="mailto:angela@parabolas-argumentos.com">
+        <a
+          className="contact-button normal-text"
+          href="mailto:angela@parabolas-argumentos.com?subject=Our project"
+          target="_blank"
+        >
           Tell us about your project
         </a>
       </section>
     </main>
+    <footer className="footer">
+      <div className="information">
+        <a
+          href="https://www.instagram.com/parabolas_argumentos/"
+          target="_blank"
+          className="instagram-link"
+        >
+          <img src="/static/img/instagram.svg" alt="Instagram" />
+        </a>
+      </div>
+      <div className="information">
+        <p className="information-text">+351 916 116 221</p>
+        <p className="information-text">angela@parabolas-argumentos.com</p>
+      </div>
+      <div className="information">
+        <p className="information-text">Travessa Manuel Boaventura 42</p>
+        <p className="information-text">4740-305 Esposende</p>
+        <p className="information-text">
+          <strong>Portugal</strong>
+        </p>
+      </div>
+    </footer>
   </React.Fragment>
 );
 
