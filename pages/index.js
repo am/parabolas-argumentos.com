@@ -28,7 +28,11 @@ const Index = () => (
         </nav>
       </div>
       <div className="header-image-container">
-        <img className="header-image" alt="" src="/static/img/IMG_3164.jpg" />
+        <img
+          className="header-image"
+          alt="Windmills - Azores - Portugal"
+          src="/static/img/IMG_20200805_211416.jpg"
+        />
         <h1 className="header-text">
           <b>We are fond</b>
           <br />
