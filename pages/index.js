@@ -8,7 +8,7 @@ const Index = () => (
       <div className="navbar">
         <img
           className="navbar-logo"
-          src="/static/img/logo.svg"
+          src="/img/logo.svg"
           alt="Parabolas & Argumentos"
         />
         <nav className="menu">
@@ -29,7 +29,7 @@ const Index = () => (
         <img
           className="header-image"
           alt="Windmills - Azores - Portugal"
-          src="/static/img/IMG_20200805_211416.jpg"
+          src="/img/IMG_20200805_211416.jpg"
         />
         <h1 className="header-text">
           <b>We are fond</b>
@@ -55,7 +55,7 @@ const Index = () => (
         <ul className="services-list">
           <li className="services-item">
             <ServiceListing
-              image="/static/img/comp_2_B.jpg"
+              image="/img/comp_2_B.jpg"
               title="Branding & Design"
               services={[
                 "Identity Design",
@@ -68,7 +68,7 @@ const Index = () => (
           </li>
           <li className="services-item">
             <ServiceListing
-              image="/static/img/fabric_crop.jpg"
+              image="/img/fabric_crop.jpg"
               title="Textile Consulting"
               services={[
                 "Market analysis",
@@ -79,7 +79,7 @@ const Index = () => (
           </li>
           <li className="services-item">
             <ServiceListing
-              image="/static/img/hangtag_crop.jpg"
+              image="/img/hangtag_crop.jpg"
               title="Production"
               services={[
                 "Sourcing",
@@ -98,12 +98,12 @@ const Index = () => (
           <img
             className="gallery-image gallery-image--right"
             alt=""
-            src="/static/img/michael-frattaroli-QGByusZU0ow-unsplash.jpg"
+            src="/img/michael-frattaroli-QGByusZU0ow-unsplash.jpg"
           />
           <img
             className="gallery-image gallery-image--left"
             alt=""
-            src="/static/img/priscilla-du-preez-638157-unsplash.jpg"
+            src="/img/priscilla-du-preez-638157-unsplash.jpg"
           />
         </div>
       </section>
@@ -124,7 +124,7 @@ const Index = () => (
           target="_blank"
           className="instagram-link"
         >
-          <img src="/static/img/instagram.svg" alt="Instagram" />
+          <img src="/img/instagram.svg" alt="Instagram" />
         </a>
       </div>
       <div className="information">

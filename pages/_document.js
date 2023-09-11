@@ -18,7 +18,7 @@ class CustomDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Catamaran:wght@100;400;700&display=swap"
             rel="stylesheet"
           />
-          <link rel="stylesheet" href="static/css/normalize.min.css" />
+          <link rel="stylesheet" href="/css/normalize.min.css" />
         </Head>
         <body>
           <Main />
